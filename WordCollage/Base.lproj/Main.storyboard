@@ -143,6 +143,15 @@
                                 <color key="textColor" red="0.60784313729999995" green="0.69803921570000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPa-q1-gtJ">
+                                <rect key="frame" x="230" y="562" width="141" height="30"/>
+                                <state key="normal" title="Change Background">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeBackgroundColor:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VQg-ny-7tJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -181,6 +190,7 @@
                                 <variation key="heightClass=compact" constant="217"/>
                                 <variation key="heightClass=regular-widthClass=compact" constant="400"/>
                             </constraint>
+                            <constraint firstAttribute="centerX" secondItem="qPa-q1-gtJ" secondAttribute="centerX" id="Fz6-hq-gU2"/>
                             <constraint firstAttribute="centerX" secondItem="JNR-dJ-f0a" secondAttribute="centerX" constant="-87" id="HC7-Ov-lfU"/>
                             <constraint firstItem="ske-bh-FFl" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="201" id="HoY-hL-QYG">
                                 <variation key="heightClass=compact" constant="96"/>
@@ -222,6 +232,7 @@
                             <constraint firstItem="WPU-gB-7PY" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="XKf-KX-1x0">
                                 <variation key="heightClass=compact" constant="8"/>
                             </constraint>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="qPa-q1-gtJ" secondAttribute="bottom" constant="8" id="XmV-Zd-q6a"/>
                             <constraint firstItem="K60-1F-eGz" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="357" id="YCg-XJ-O4C">
                                 <variation key="heightClass=compact" constant="200"/>
                             </constraint>

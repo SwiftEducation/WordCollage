@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func changeBackgroundColor(sender: UIButton) {
+        view.backgroundColor = UIColor.blackColor()
+    }
 
 }
 
