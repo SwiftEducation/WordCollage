@@ -144,12 +144,30 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPa-q1-gtJ">
-                                <rect key="frame" x="230" y="562" width="141" height="30"/>
-                                <state key="normal" title="Change Background">
+                                <rect key="frame" x="281" y="562" width="39" height="30"/>
+                                <state key="normal" title="Black">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="changeBackgroundColor:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VQg-ny-7tJ"/>
+                                    <action selector="changeBackgroundColorToBlack:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Khb-iD-B41"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lrv-Oh-P41">
+                                <rect key="frame" x="152" y="562" width="40" height="30"/>
+                                <state key="normal" title="White">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeBackgroundColorToWhite:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cdC-rJ-XUo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vwm-vA-q4z">
+                                <rect key="frame" x="403" y="562" width="60" height="30"/>
+                                <state key="normal" title="Magenta">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeBackgroundColorToMagenta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="X2i-8e-K6j"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -248,6 +266,7 @@
                             <constraint firstAttribute="centerX" secondItem="Dnm-an-hZg" secondAttribute="centerX" constant="7" id="fnn-UN-qlb">
                                 <variation key="heightClass=compact" constant="67"/>
                             </constraint>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Vwm-vA-q4z" secondAttribute="bottom" constant="8" id="ftm-Cf-AgH"/>
                             <constraint firstItem="nCY-eX-AfJ" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="413" id="fzt-WP-c1C">
                                 <variation key="heightClass=compact" constant="231"/>
                                 <variation key="heightClass=regular-widthClass=compact" constant="398"/>
@@ -261,6 +280,7 @@
                             </constraint>
                             <constraint firstItem="ske-bh-FFl" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="16" id="gKW-9V-JFi"/>
                             <constraint firstItem="nCY-eX-AfJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="56" id="iwP-co-BPe"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Lrv-Oh-P41" secondAttribute="bottom" constant="8" id="kRK-Gh-xMx"/>
                             <constraint firstItem="WPU-gB-7PY" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="403" id="kWc-B3-7Dn">
                                 <variation key="heightClass=compact" constant="222"/>
                                 <variation key="heightClass=regular-widthClass=compact" constant="404"/>
@@ -268,6 +288,7 @@
                             <constraint firstItem="nXE-q4-2Y5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="84" id="mAi-Wl-Dm4">
                                 <variation key="heightClass=regular-widthClass=compact" constant="54"/>
                             </constraint>
+                            <constraint firstAttribute="centerX" secondItem="Vwm-vA-q4z" secondAttribute="centerX" constant="-133" id="r9Q-vy-kyx"/>
                             <constraint firstItem="A7d-We-fVr" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="270" id="rtR-uj-iqw">
                                 <variation key="heightClass=compact" constant="148"/>
                                 <variation key="heightClass=regular-widthClass=compact" constant="258"/>
@@ -277,6 +298,7 @@
                                 <variation key="heightClass=compact" constant="107"/>
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="tVB-tP-eb2" secondAttribute="centerX" constant="-84.5" id="y2e-SI-UyP"/>
+                            <constraint firstAttribute="centerX" secondItem="Lrv-Oh-P41" secondAttribute="centerX" constant="128" id="yKa-fB-ZvV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lnU-x1-lkb" secondAttribute="trailing" constant="9" id="yo0-mz-YHD"/>
                             <constraint firstAttribute="centerX" secondItem="34n-If-zU8" secondAttribute="centerX" constant="-33" id="zwe-UO-oxA">
                                 <variation key="heightClass=compact" constant="-18"/>

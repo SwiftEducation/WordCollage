@@ -19,9 +19,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func changeBackgroundColor(sender: UIButton) {
+    @IBAction func changeBackgroundColorToBlack(sender: UIButton) {
         view.backgroundColor = UIColor.blackColor()
     }
 
+    @IBAction func changeBackgroundColorToWhite(sender: UIButton) {
+        view.backgroundColor = UIColor.whiteColor()
+    }
+    
+    @IBAction func changeBackgroundColorToMagenta(sender: UIButton) {
+        view.backgroundColor = UIColor.magentaColor()
+    }
+    
 }
 
