@@ -71,6 +71,12 @@
                                 <color key="textColor" red="0.60784313729999995" green="0.69803921570000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn to Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34n-If-zU8">
+                                <rect key="frame" x="171" y="221" width="324" height="70"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="51"/>
+                                <color key="textColor" red="0.18823529410000001" green="0.84705882349999995" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fall in Love" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7d-We-fVr">
                                 <rect key="frame" x="16" y="270" width="212" height="57"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="41"/>
@@ -150,6 +156,10 @@
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="K60-1F-eGz" secondAttribute="centerX" constant="64.5" id="3Zr-bJ-FK0">
                                 <variation key="heightClass=compact" constant="60"/>
+                            </constraint>
+                            <constraint firstItem="34n-If-zU8" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="221" id="5N4-yg-lA2">
+                                <variation key="heightClass=compact" constant="112"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="214"/>
                             </constraint>
                             <constraint firstItem="6tR-Hu-BVu" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="49" id="7hS-CK-okp">
                                 <variation key="heightClass=compact" constant="34"/>
@@ -257,6 +267,10 @@
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="tVB-tP-eb2" secondAttribute="centerX" constant="-84.5" id="y2e-SI-UyP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lnU-x1-lkb" secondAttribute="trailing" constant="9" id="yo0-mz-YHD"/>
+                            <constraint firstAttribute="centerX" secondItem="34n-If-zU8" secondAttribute="centerX" constant="-33" id="zwe-UO-oxA">
+                                <variation key="heightClass=compact" constant="-18"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="-21"/>
+                            </constraint>
                         </constraints>
                     </view>
                 </viewController>
