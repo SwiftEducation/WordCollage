@@ -1,4 +1,4 @@
-<img align="right" src="https://raw.github.com/SwiftEducation/WordCollage/master/WordCollage/Images.xcassets/AppIcon.appiconset/Icon-Spotlight-40@2x.png" />
+<img align="right" src="https://github.com/SwiftEducation/WordCollage/raw/master/WordCollage/Images.xcassets/AppIcon.appiconset/Icon-Spotlight-40@2x.png" />
 
 # WordCollage
 
